@@ -1,0 +1,12 @@
+Starter code for 11-711 Homework #4.
+
+To run:
+python Parser.py train.conll development.conll > output.conll
+
+The parser runs in unlabeled mode by default. To enable labels, use the -l flag.
+With the given features, training your parser should take approximately one
+minute unlabeled, or ~10m with labels.
+
+Note that several functions have intentionally been left blank. It is your job to fill
+in these functions to achieve a baseline parser. From there you should improve the learner,
+the feature functions, or the parsing algorithm in order to achieve better UAS and/or LAS.
